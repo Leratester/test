@@ -22,7 +22,6 @@ try:
         x_element1 = browser.find_element_by_id('answer')
         x_element1.send_keys(y)
         button1 = browser.find_element_by_id("solve")
-        testing
         button1.click()
         
        
@@ -32,4 +31,6 @@ finally:
     # закрываем браузер после всех манипуляций
     browser.quit()
 
-testing
+-Homework from previous module
+
+
