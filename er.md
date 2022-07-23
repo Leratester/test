@@ -22,11 +22,14 @@ try:
         x_element1 = browser.find_element_by_id('answer')
         x_element1.send_keys(y)
         button1 = browser.find_element_by_id("solve")
+        testing
         button1.click()
-
+        
        
 finally:
     # успеваем скопировать код за 30 секунд
     time.sleep(30)
     # закрываем браузер после всех манипуляций
     browser.quit()
+
+testing
